@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    margin: 940;
+    padding: 135;
+    color: gainsboro;
+}
+
+
+html {
+    height: 100%;
+    background-color: rgba(156, 226, 226, 0.425);
+    background-image: url(img/fondo.jpg);
+    
+}
+
+
+
+.nav{
+    grid-area: nav;
+     text-align: center;
+     color: white; 
+     min-width: 10%; 
+     height: 10%;
+     background-color: rgb(20,27,44);
+     
+    }
+
+    .section{
+        grid-area: section;
+        align-content: center ;
+        color: blue;
+        height: 140px;
+        width: 940px;
+        background-color: rgba(24, 24, 163, 0.452);
+        }
